@@ -41,7 +41,7 @@ class HidupSehat_model extends CI_model
 	public function cariDataHidupSehat()
 	{
 		$keyword = $this->input->post('keyword', true);
-		$where = "sehat='$keyword' OR dampak='$keyword'";
+		$where = "sehat like '%".$keyword."%' OR dampak like '%".$keyword."%'";
 		$this->db->where($where);
 		return $this->db->get('sehat')->result_array();
 	}
