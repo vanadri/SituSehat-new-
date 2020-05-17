@@ -41,7 +41,7 @@ class Gejala_model extends CI_model
 	public function cariDataGejala()
 	{
 		$keyword = $this->input->post('keyword', true);
-		$where = "gejala='$keyword' OR ket='$keyword'";
+		$where = "gejala like '%".$keyword."%'";
 		$this->db->where($where);
 		return $this->db->get('gejala')->result_array();
 	}
