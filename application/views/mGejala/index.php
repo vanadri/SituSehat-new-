@@ -50,7 +50,7 @@
              <p class="lead">Gejala merupakan sebuah pertanda bahwa kita akan terkena penyakit. </p>
                 <hr class="my-4">
              <p>Untuk mengetahui lebih lanjut mengenai gejala-gejala penyakit, silahkan klik tombol dibawah ini</p>
-             <a class="btn btn-primary btn-lg" href="http://localhost/SituSehat/xGejala" role="button">Kunjungi</a>
+             <a class="btn btn-primary btn-lg" href="http://localhost/SituSehat/Gejala" role="button">Kunjungi</a>
             </div>
     
     
