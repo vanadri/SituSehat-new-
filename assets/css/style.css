@@ -1,0 +1,25 @@
+
+.jumbotron {
+	background-size: cover;
+	height: 300px; 
+	text-align: center;
+}
+
+.jumbotron .display-4 {
+	margin-top: 10px;
+}
+
+.jumbotron hr {
+	border-width: 2px;
+	width: 445px;
+	border-color: green;
+}
+
+.jumbotron .btn {
+	background-color: green;
+	border: none;
+	border-radius: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: calibri;
+}

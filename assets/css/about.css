@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#us img {
+	margin-top: -50px;
+}
+
+#us i {
+	font-size: 26px;
+}
+
+#us p {
+	font-weight: 500px;
+}
+#us .card {
+	border-radius: 0;
+	box-shadow: 5px 5px 15px green;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+}
+#us .card:hover{
+	background:green;
+	color: white;
+	border-radius: 5px;
+	border : none;
+	box-shadow: 5px 5px 15px green;
+}
+
+#us .card:hover h3, #us.card:hover i {
+	color: white;
+}
