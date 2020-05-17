@@ -43,7 +43,7 @@ class Penyakit_model extends CI_model
 	public function cariDataPenyakit()
 	{
 		$keyword = $this->input->post('keyword', true);
-		$where = "penyakit='$keyword' OR ket='$keyword' OR penyembuhan='$keyword'";
+		$where = "penyakit like '%".$keyword."%' OR ket like '%".$keyword."%' OR penyembuhanlike '%".$keyword."%'";
 		$this->db->where($where);
 		return $this->db->get('penyakit')->result_array();
 	}
